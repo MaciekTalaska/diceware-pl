@@ -1,7 +1,7 @@
 
 
-aaa
-aaaa
+
+
 
 abak
 abaka
@@ -380,8 +380,8 @@ bazar
 bazia
 bazowy
 
-bbb
-bbbb
+
+
 
 bcd
 
@@ -782,8 +782,8 @@ casus
 cave
 
 
-ccc
-cccc
+
+
 
 cde
 cdn
@@ -1126,8 +1126,8 @@ dcl
 dcm
 dcn
 
-ddd
-dddd
+
+
 
 dealer
 debata
@@ -1434,9 +1434,9 @@ edykt
 edyl
 edytor
 
-eee
-eeee
-eeg
+
+
+
 
 efeb
 efekt
@@ -1637,8 +1637,8 @@ feta
 fetor
 fetysz
 
-fff
-ffff
+
+
 
 fgh
 
@@ -1924,8 +1924,8 @@ getyt
 geza
 
 
-ggg
-gggg
+
+
 
 ghi
 
@@ -2207,8 +2207,8 @@ hewea
 
 
 
-hhh
-hhhh
+
+
 
 hialit
 hiat
@@ -2318,8 +2318,8 @@ igumen
 
 ihumen
 
-iii
-iiii
+
+
 
 ijk
 
@@ -2474,8 +2474,8 @@ jezdny
 jidysz
 jin
 
-jjj
-jjjj
+
+
 
 jkl
 
@@ -2790,8 +2790,8 @@ kiwany
 kizia
 
 
-kkk
-kkkk
+
+
 
 klacz
 klag
@@ -3449,8 +3449,8 @@ lizus
 
 
 
-lll
-llll
+
+
 
 lmn
 
@@ -3790,8 +3790,8 @@ mizdra
 mlecz
 mleko
 
-mmm
-mmmm
+
+
 
 mnich
 mniej
@@ -4071,8 +4071,8 @@ nizina
 
 
 
-nnn
-nnnn
+
+
 
 noc
 nocek
@@ -4359,11 +4359,11 @@ onuca
 ony
 onyks
 
-oolit
-ooo
-oooo
-ooskop
-ooteka
+
+
+
+
+
 
 opacki
 opad
@@ -5003,9 +5003,9 @@ pozer
 pozew
 poziom
 
-ppkt
-ppp
-pppp
+
+
+
 
 pqr
 
@@ -5163,8 +5163,8 @@ pyzaty
 
 
 
-qqq
-qqqq
+
+
 
 qrs
 
@@ -5426,8 +5426,8 @@ rozum
 
 
 
-rrr
-rrrr
+
+
 
 rst
 
@@ -5920,11 +5920,11 @@ sroczy
 srogi
 sroka
 
-ssak
-ssany
-ssawa
-sss
-ssss
+
+
+
+
+
 
 sta
 stacja
@@ -6546,8 +6546,8 @@ trzon
 
 tss
 
-ttt
-tttt
+
+
 
 tua
 tuba
@@ -6797,8 +6797,8 @@ utopia
 utrata
 utro
 
-uuu
-uuuu
+
+
 
 uvw
 
@@ -6851,8 +6851,8 @@ voto
 
 
 
-vvv
-vvvv
+
+
 
 vwx
 
@@ -7148,9 +7148,9 @@ wulkan
 wurcyt
 
 
-wwlec
-www
-wwww
+wlec
+
+
 
 wxy
 
@@ -7255,8 +7255,8 @@ wzuty
 
 
 
-xxx
-xxxx
+
+
 
 xyz
 
@@ -7286,8 +7286,8 @@ yin
 
 
 
-yyy
-yyyy
+
+
 
 
 zabawa
@@ -7531,7 +7531,7 @@ zygota
 zygzak
 zysk
 
-zzuty
-zzz
-zzzz
+
+
+
 
