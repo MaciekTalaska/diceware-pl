@@ -25,6 +25,18 @@ Additional requirements:
 
 I decided not to generate dice throws indexes. Mainly due to the fact that I don't find it helpful when using electronically created list. 
 
+**Update:** just for the sake of convenience I have decided to create a simple Python script that takes a text file (assuming that it is a diceware list - i.e. each line is a word) and generates a list with indexes.
+Usage:
+
+`./addindexes.py diceware-pl.txt` that will generate `diceware-pl.txt.out` file. Just rename and use it.
+
+Important note
+--------------
+
+At the moment the list consists of 5887 words. To select 1 word it is required to throw a dice 5 times (log(5887, base 6) is ~4.84). The number of combinations for 5 rolls of a dices is 5^6 which equals to 7776. The diffence between 6^5 and length of the list is 1889. So... what does that mean? Well it means that using this list right now requires one either to fill it with some additional words (up to the 7776 boundary) or compute the index using mod 5887, which unfortunately means that some words (first 1889) are going to be chosen much more frequently than others.
+
+I am planning to make some further adjustments to the list a bit later. I hope to make it of exactly 6^4 length. 
+
 Help?
 -----
 
@@ -34,23 +46,14 @@ If you think that some words should be added/removed - let me know, or just crea
 Some statistics:
 ----------------
 
-Number of words: 		5887
-Total number of characters*: 	37540
-Average word length: 		~6.4  
-
-Stats for the original list:
-Number of words:		7536	
-Total number of charactes:     44394	
-Average word length:		~5.9
-
 | |My list | List by Piotr (DrFugazi) Tarnowski |
 | --- | --- | --- |
 | Words | 5887 | 7536 |
-| Characters | 37540 | 44394 |
+| Characters* | 37540 | 44394 |
 | Average word length | ~6.4 | ~5.9 |
 
 
-* - computed using: wc -c dicelist-pl.txt
+* computed using: wc -c dicelist-pl.txt
 
 
 License?
