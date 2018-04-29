@@ -60,7 +60,7 @@ If you think that some words should be added/removed - let me know, or just crea
 Some statistics:
 ----------------
 
-| |My list | List by Piotr (DrFugazi) Tarnowski |
+| | my list | original list |
 | --- | --- | --- |
 | Words | 3888 | 7536 |
 | Characters (`wc -c diceware-pl.txt` ) | 24653 | 44394 |
