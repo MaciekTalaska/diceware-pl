@@ -70,4 +70,4 @@ Some statistics:
 License?
 --------
 
-This work is under "do whatever you like" license.
+This work us under [MIT license](https://opensource.org/licenses/mit-license.php).
