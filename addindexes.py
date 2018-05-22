@@ -4,24 +4,29 @@ import math
 import itertools
 import sys
 
+
 def generate_dice_index_sequence(num_dices):
     digits = "123456"
     for index in itertools.product(digits, repeat=num_dices):
         s = ''.join(index)
         yield s
 
+
 def get_file_lines_count(file):
     lines_count = sum(1 for lines in file)
-    file.seek(0,0)
-    return lines_count 
+    file.seek(0, 0)
+    return lines_count
+
 
 def calculate_index_size(count):
-    return int(math.ceil(math.log(count,6)))
+    return int(math.ceil(math.log(count, 6)))
+
 
 def write_output(outputfile, collection):
-    for (k,v) in collection:
-        line = "{0}\t{1}".format(k,v)
+    for (k, v) in collection:
+        line = "{0}\t{1}".format(k, v)
         outputfile.write(line)
+
 
 def try_open_file(filename):
     try:
@@ -43,6 +48,7 @@ def main(inputfilename):
     write_output(outputfile, collection)
     outputfile.close()
     inputfile.close()
+
 
 if __name__ == "__main__":
     if (len(sys.argv)) < 2:
