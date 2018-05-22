@@ -40,6 +40,8 @@ Usage:
 `./addindexes.py diceware-pl.txt` or (`python addindexes.py diceware-pl.txt`) generates `diceware-pl.txt.out` file. Just rename and use it.
 Please be aware that the script was just a quick hack, so there is no proper error handling etc.
 
+I have tried to make this script work with Python2.7 and Python3 but in case you experience any problems runnning it, please try running it with Python3.
+
 Important note on security, probability of words in regards to list size etc.
 -----------------------------------------------------------------------------
 
