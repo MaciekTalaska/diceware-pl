@@ -11,9 +11,9 @@ def generate_dice_index_sequence(num_dices):
         yield s
 
 def get_file_lines_count(file):
-    num_lines = sum(1 for lines in file)
+    lines_count = sum(1 for lines in file)
     file.seek(0,0)
-    return num_lines
+    return lines_count 
 
 def calculate_index_size(count):
     return int(math.ceil(math.log(count,6)))
@@ -23,8 +23,18 @@ def write_output(outputfile, collection):
         line = "{0}\t{1}".format(k,v)
         outputfile.write(line)
 
+def try_open_file(filename):
+    try:
+        f = open(filename, "r")
+    except IOError:
+        print("unable to open file: {0}", filename)
+        sys.exit(2)
+    else:
+        return f
+
+
 def main(inputfilename):
-    inputfile = open(inputfilename, "r")
+    inputfile = try_open_file(filename)
     outputfilename = inputfilename + ".out"
     outputfile = open(outputfilename, "w")
     words_count = get_file_lines_count(inputfile)
@@ -38,4 +48,5 @@ if __name__ == "__main__":
     if (len(sys.argv)) < 2:
         print("no input file name provided. exiting...")
         sys.exit(1)
-    main(sys.argv[1])
+    filename = sys.argv[1]
+    main(filename)
