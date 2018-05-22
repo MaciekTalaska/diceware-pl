@@ -22,8 +22,6 @@ def write_output(outputfile, collection):
     for (k,v) in collection:
         line = "{0}\t{1}".format(k,v)
         outputfile.write(line)
-        print(line)
-    file.close(outputfile)
 
 def main(inputfilename):
     inputfile = open(inputfilename, "r")
@@ -32,12 +30,12 @@ def main(inputfilename):
     words_count = get_file_lines_count(inputfile)
     index_size = calculate_index_size(words_count)
     collection = zip(generate_dice_index_sequence(index_size), inputfile.readlines())
-    print("collection size: {0}", len(collection))
     write_output(outputfile, collection)
+    outputfile.close()
     inputfile.close()
 
 if __name__ == "__main__":
     if (len(sys.argv)) < 2:
-        print("please provide input file name!")
+        print("no input file name provided. exiting...")
         sys.exit(1)
     main(sys.argv[1])
