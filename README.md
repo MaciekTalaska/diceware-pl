@@ -36,9 +36,13 @@ Indexes:
 **Update:** My list has no index for dice rolls. Just for the sake of convenience I have decided to create a simple Python script that takes a text file (assuming that it is a diceware list - i.e. each line is a word) and generates a list with indexes.
 
 Usage:
+
 `./addindexes.py diceware-pl.txt` 
+
 or 
+
 `python addindexes.py diceware-pl.txt` 
+
 generates `diceware-pl.txt.out` file. Just rename and use it.
 Please be aware that the script was just a quick hack, so there is no proper error handling etc.
 
