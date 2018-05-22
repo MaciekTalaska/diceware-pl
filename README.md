@@ -1,7 +1,9 @@
 Polish diceware list
 ====================
 
-**Important note:** this list is created based on the list origianlly created by Piotr (DrFugazi) Tarnowski.
+**Important note:** this list is created based on the list origianlly created by Piotr (DrFugazi) Tarnowski. This list is only available via [webarchive](https://web.archive.org/web/20080926125905/http://www.drfugazi.eu.org/diceware).
+
+
 
 Why?
 ----
